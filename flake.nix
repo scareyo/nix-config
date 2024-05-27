@@ -11,6 +11,9 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
     nur.url = "github:nix-community/NUR";
+
+    nix-virt.url = "https://flakehub.com/f/AshleyYakeley/NixVirt/*.tar.gz";
+    nix-virt.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {

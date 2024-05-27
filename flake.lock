@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1716668005,
-        "narHash": "sha256-daQD/pphMJUriHiWfKo9V4Kpi7+GIAE0As47Mpko0TI=",
+        "lastModified": 1716679503,
+        "narHash": "sha256-aX8AEWHLwuiYX8OCpTnHGrQeei1Gb+AGbk1hq+RIClg=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "d179da4e81bcd4227e8abf4b62b92c4ae214ae39",
+        "rev": "e4611630c3cc8ed618b48d92f6291f65be9f7913",
         "type": "github"
       },
       "original": {
@@ -40,6 +40,26 @@
         "type": "github"
       }
     },
+    "nix-virt": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "nixpkgs-ovmf": "nixpkgs-ovmf"
+      },
+      "locked": {
+        "lastModified": 1712439808,
+        "narHash": "sha256-QoONoZPBpNTw5cia05QSvDlaxXo3moKAJQOw7c5hMXA=",
+        "rev": "9f1cdca730d92461075709e867c1e9ad93d58a8d",
+        "revCount": 284,
+        "type": "tarball",
+        "url": "https://api.flakehub.com/f/pinned/AshleyYakeley/NixVirt/0.5.0/018eb55e-7beb-75c5-919f-5b5b26136e06/source.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://flakehub.com/f/AshleyYakeley/NixVirt/%2A.tar.gz"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1716509168,
@@ -56,13 +76,29 @@
         "type": "github"
       }
     },
+    "nixpkgs-ovmf": {
+      "locked": {
+        "lastModified": 1708984720,
+        "narHash": "sha256-gJctErLbXx4QZBBbGp78PxtOOzsDaQ+yw1ylNQBuSUY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "13aff9b34cc32e59d35c62ac9356e4a41198a538",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nur": {
       "locked": {
-        "lastModified": 1716671200,
-        "narHash": "sha256-MjfhRf3LhIXPRrlKIxIgLNEt1pySaBwazO6+qALjBtY=",
+        "lastModified": 1716688129,
+        "narHash": "sha256-ad5e4JGXZ6m6WVW9y6aMIEP0ZnlR4Ao4/wYcNrPK14w=",
         "owner": "nix-community",
         "repo": "NUR",
-        "rev": "386c4b596d7abb4eab6918b4e91071be06772c82",
+        "rev": "bfda0ee64de6bf23100b26d831281ea00ef77fa3",
         "type": "github"
       },
       "original": {
@@ -75,6 +111,7 @@
       "inputs": {
         "home-manager": "home-manager",
         "nix-darwin": "nix-darwin",
+        "nix-virt": "nix-virt",
         "nixpkgs": "nixpkgs",
         "nur": "nur"
       }

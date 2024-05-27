@@ -3,6 +3,9 @@
 {
   imports = [ 
     ../common
+
+    ./vm/win11.nix
+
     ./gnome.nix
   ];
 

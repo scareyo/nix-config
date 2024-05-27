@@ -14,6 +14,11 @@
     nixos = {
       enable = true;
       gnome.enable = true;
+
+      vm = {
+        win11.enable = true;
+        win11.config = ./vm/win11.xml;
+      };
     };
   };
   
